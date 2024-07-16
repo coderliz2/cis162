@@ -1,12 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>About</title>
+    <link rel="stylesheet" href="main.css">
     <meta charset="utf-8">
-<title>About</title>
-<link rel="stylesheet" href="main.css">
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ADD8E6;
+}
+
+    li {
+  float: left;
+}
+    
+    li a {
+  display: block;
+  padding: 8px;
+  background-color: #ADD8E6;
+}
+
+li a:hover {
+  background-color: #FFFFFF;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+    
+</style>
 </head>
 <body>
+
 <header><h1>Elizabeth Arellano</h1></header>
+
+
 <nav>
 <ul>
     <li><a href="home.html">Home</a></li>
@@ -14,18 +52,30 @@
     <li><a href="school.html">School</a></li>
 </ul>
 </nav>
-<h1>Educational Goals</h1>
-<ol>
+<div class="row">
+  <div class="column" style="background-color:#ADD8E6;">
+    <h2>Educational Goals</h2>
+    <ol>
     <li>One educational goal I have is to get my bachelor's degree in Computer Science in 4 years.</li>
     <li>Another educational goal I have is to have an internship by my sophomore year.</li>
     <li>Another educational goal I have is to have a well-paying job by my junior or senior year.</li>
 </ol>
-<h1>3 Skills</h1>
-<ol>
+  </div>
+  <div class="column" style="background-color:#FFFFFF;">
+    <h2>3 Skills</h2>
+    <p><ol>
     <li>One skill I have is that I know how to code in python.</li>
     <li>Another skill I have is that I know how to navigate Microsoft office, so applications such as, Word, Powerpoint, Outlook, and various other services.</li>
     <li>Another skill I have is that I know the language SQL.</li>
 </ol>
-<footer> Last updated on July 1 <p><a href="mailto:elizabethrocksforever12@example.com">elizabethrocksforever12@example.com</a></p></footer>
+  </div>
+</div>
+
+<img src="img_chania.jpg" alt="Flowers in Chania" width="460" height="345">
+
 </body>
 </html>
+
+
+
+
